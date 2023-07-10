@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline & Block</title>
+    <style>
+        p {
+            background-color: lightgrey;
+        }
+
+        span {
+            background-color: darkgray;
+            width: 100px;
+            padding: 10px;
+            /* change type*/
+            display: block;
+        }
+
+        .inline_block_items span {
+            background-color: darkgray;
+            width: 100px;
+            padding: 10px;
+            /* change type*/
+            display: block;
+        }
+
+        blockquote {
+            background-color: antiquewhite;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        /*CSS priority
+        1 Tag selector
+        2 Class selector
+        3 ID selector
+        4 Attribute selector
+        
+        */
+    </style>
+</head>
+
+<body>
+    <h1>Inline and Block Elements</h1>
+    <strong>Inline elements</strong>
+    <p><span>Hello</span>
+        <span>how</span>
+        <span>are</span>
+        <span>you</span>
+    </p>
+
+    <strong>Block elements</strong>
+    <p class="inline_block_items"><span>Hello</span>
+        <span>how</span>
+        <span>are</span>
+        <span>you</span>
+    </p>
+
+    <blockquote>Red</blockquote>
+    <blockquote>Green</blockquote>
+    <blockquote>White</blockquote>
+    <blockquote>Blue</blockquote>
+
+
+    <div>
+        <img
+            src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fplatinumlist.net%2Fguide%2Fwp-content%2Fuploads%2F2023%2F03%2FIMG-worlds-of-adventure.webp&tbnid=HAktMeDXfp2ucM&vet=12ahUKEwiDkPrNw_7_AhUeEhAIHaxxBIwQMygBegUIARDFAQ..i&imgrefurl=https%3A%2F%2Fplatinumlist.net%2Fguide%2Feverything-you-need-to-know-about-img-worlds-of-adventure&docid=A0w5ojTkCPUH_M&w=1920&h=1080&q=img&ved=2ahUKEwiDkPrNw_7_AhUeEhAIHaxxBIwQMygBegUIARDFAQ">
+
+    </div>
+    <h3><strong>Rivne, Ukraine</strong></h3>
+    <address>Rivne, Ukraine</address>
+</body>
+
+</html>

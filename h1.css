@@ -1,0 +1,33 @@
+h1 {
+    background-color: rgb(19, 220, 220);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(89, 9, 163);
+}
+
+.heads1 {
+    color: rgb(38, 103, 217)
+}
+
+article {
+    margin: 5px;
+    background-color: rgb(241, 240, 240);
+}
+
+.redCard {
+    color: red;
+    background-color: lightgray;
+    padding: 3px;
+}
+
+.blackCard {
+    color: black;
+    background-color: lightgray;
+    padding: 3px;
+}
+
+.sector {
+    background-color: rgb(241, 240, 240);
+}
